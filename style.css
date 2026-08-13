@@ -1,3 +1,54 @@
+
+/* General reset and styling */
 body {
-    color: salmon;
+    margin: 0;
+    padding: 15px;
+    background-color: #ffc0cb; /* Light pink background matching the screenshot wrapper */
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    box-sizing: border-box;
+    height: 100vh;
+}
+
+/* Top container holding 1, 2, and 3 */
+.container_top {
+    display: flex;
+    gap: 15px;
+    flex: 1;
+}
+
+.container_one,
+.container_two,
+.container_three {
+    background-color: #ff0000; /* Red color for top elements */
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #000000; /* Black text color */
+}
+
+/* Bottom container holding 4 and 5 */
+.container_bottom {
+    display: flex;
+    gap: 15px;
+    flex: 1.5;
+}
+
+.container_four,
+.container_five {
+    background-color: #0000ff; /* Blue color for bottom elements */
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #000000; /* Black text color */
+}
+
+/* Typography for numbers */
+h1 {
+    font-size: 4rem;
+    margin: 0;
 }
